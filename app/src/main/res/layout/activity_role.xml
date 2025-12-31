@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp"
+    android:paddingTop="32dp">
+
+    <!-- Illustration -->
+    <ImageView
+        android:id="@+id/imgIllustration"
+        android:layout_width="0dp"
+        android:layout_height="270dp"
+        android:src="@drawable/role_illustration"
+        android:scaleType="fitCenter"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I am an"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        app:layout_constraintTop_toBottomOf="@id/imgIllustration"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Subtitle -->
+    <TextView
+        android:id="@+id/txtSub"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum is a dummy text simple text Lorem ipsum is a dummy text simple text"
+        android:textSize="13sp"
+        android:textColor="@color/text_secondary"
+        android:lineSpacingExtra="4dp"
+        app:layout_constraintTop_toBottomOf="@id/txtTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Customer Button -->
+    <Button
+        android:id="@+id/btnCustomer"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:text="Customer"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bg_button_selected"
+        app:layout_constraintTop_toBottomOf="@id/txtSub"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"/>
+
+    <!-- Consultant Button -->
+    <Button
+        android:id="@+id/btnConsultant"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:text="Consultant"
+        android:textSize="14sp"
+        android:textColor="@color/text_primary"
+        android:background="@drawable/bg_button_unselected"
+        app:layout_constraintTop_toBottomOf="@id/btnCustomer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"/>
+
+    <!-- Career -->
+    <TextView
+        android:id="@+id/txtCareer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Career"
+        android:textSize="13sp"
+        android:textColor="@color/text_secondary"
+        app:layout_constraintTop_toBottomOf="@id/btnConsultant"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="250dp"/>
+
+    <!-- Continue Button -->
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:text="Continue"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bg_button_selected"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

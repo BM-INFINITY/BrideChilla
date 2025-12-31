@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:text="Enter 4 Digit Code"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#111111"/>
+
+    <EditText
+        android:id="@+id/etOtp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="6"
+        android:textSize="18sp"
+        android:hint="Enter OTP" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Next"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bg_button_selected"
+        app:backgroundTint="@null"
+        android:layout_marginTop="32dp"/>
+
+</LinearLayout>

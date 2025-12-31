@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "631490180344",
+    "project_id": "bridechilla-7e8ae",
+    "storage_bucket": "bridechilla-7e8ae.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631490180344:android:7f53bdd4060e44ebc2770d",
+        "android_client_info": {
+          "package_name": "com.example.bridechilla"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzFFxcQdYyOqoY70kuehHStr_gZnUOt8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
