@@ -1,3 +1,6 @@
+provided UI(Figma)
+https://www.figma.com/design/JeMtvNhtTZEbfgWYcZp21h/Bride-chilla?node-id=225-7175&t=OmDPrMV86t3KN4fX-0
+
 📱 App Flow (Current Process)
 Splash Screen
 
